@@ -1,0 +1,63 @@
+body{
+    background: url('../img/background.png') repeat-x #EE8000;
+}
+.view {
+    background-color: #FFFFFF;
+    width: 905px;
+    height: 630px;
+    margin:auto;
+    border-radius: 9px; /* CSS 3 */
+    -o-border-radius: 9px; /* Opera */
+    -icab-border-radius: 9px; /* iCab */
+    -khtml-border-radius: 9px; /* Konqueror */
+    -moz-border-radius: 9px; /* Firefox */
+    -webkit-border-radius: 9px; /* Safari */
+    box-shadow: 0px 0px 10px #000;
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+}
+.top{
+    -webkit-border-top-left-radius: 9px;
+    -webkit-border-top-right-radius: 9px;
+    -moz-border-radius-topleft: 9px;
+    -moz-border-radius-topright: 9px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background-color: #B8E3FF;
+    height: 119px;
+}
+.title_left{
+    height: 75px;
+    padding-top: 30px;
+    padding-left: 40px;
+    background: url('../img/bar_title_left.png') repeat-x;
+    width: 510px;
+    float: left;
+}
+.title_center {
+    background: url('../img/bar_title_center.png') no-repeat;
+    height: 75px;
+    width: 136px;
+    float: left;
+}
+.title_right {
+    background: url('../img/bar_title_right.png') repeat-x;
+    height: 75px;
+}
+.title_left span{
+    font-size: 25px;
+    color: #F17C05;
+    font-family: "Aharoni";
+}
+.conteiner {
+    background-color: #FF8300;
+    width: 344px;
+    height: 400px;
+    margin-left: 30px;
+    -webkit-border-bottom-right-radius: 9px;
+    -webkit-border-bottom-left-radius: 9px;
+    -moz-border-radius-bottomright: 9px;
+    -moz-border-radius-bottomleft: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
