@@ -45,14 +45,16 @@ body{
     height: 75px;
 }
 .title_left span{
-    font-size: 25px;
-    color: #F17C05;
-    font-family: "Aharoni";
+    font-size: 22px;
+    color: #EB7813;
+    font-family: "Cooper Std";
+    font-style: italic;
 }
 .conteiner {
     background-color: #FF8300;
     width: 344px;
-    height: 400px;
+    height: 390px;
+    padding-top:10px;
     margin-left: 30px;
     -webkit-border-bottom-right-radius: 9px;
     -webkit-border-bottom-left-radius: 9px;
@@ -60,4 +62,92 @@ body{
     -moz-border-radius-bottomleft: 9px;
     border-bottom-right-radius: 9px;
     border-bottom-left-radius: 9px;
+}
+.bnt_atendimento {
+    cursor: pointer;
+    padding-top:20px;
+}
+.footer {
+    background: url('../img/background_home.png') #FFFFFF right no-repeat;
+}
+.sub_top {
+    border-top: dotted #FFC245;
+    border-bottom: dotted #FFC245;
+    width: 325px;
+    height: 170px;
+    background-color: #FF9500;
+    margin-left:10px;
+}
+.img_home {
+    background: url('../img/img_home.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 10px;
+    float:left;
+}
+.text_home {
+    margin-top: 15px;
+    float: left;
+    width: 180px;
+    margin-left: 10px;
+    height: 100px;
+}
+.text_home span{
+    text-align: justify;
+    line-height: 10px;
+    font-size: 12;
+    font-family: "Simplified Arabic";
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.text_cad {
+    width: 300px;
+    margin-left: 20px;
+}
+.text_cad span {
+    text-align: justify;
+    line-height: 10px;
+    font-size: 12;
+    font-family: "Simplified Arabic";
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.btn {
+    float: right;
+    text-decoration: none;
+}
+.bnt_save {
+    text-decoration:none;
+    background: url('../img/button_save.png') no-repeat;
+    width: 130px;
+    height: 40px;
+}
+.img_cad_home {
+    background: url('../img/img_text.png');
+    width: 132px;
+    height: 135px;
+    float:left;
+}
+.form_cad {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.form_cad label{
+    padding-left: 7px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 12;
+    font-family: "Simplified Arabic";
+}
+.form_cad input{
+    padding-bottom: 5px;
+    width: 95%;
+    border-radius: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.form_cad a {
+    padding-top: 10px;
 }
