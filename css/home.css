@@ -151,3 +151,11 @@ body{
 .form_cad a {
     padding-top: 10px;
 }
+.title_home {
+    background: url('../img/title_home.png') no-repeat;
+    height: 47px;
+    width: 587px;
+    margin: auto;
+    margin-top:50px;
+    padding-bottom: 20px;
+}
